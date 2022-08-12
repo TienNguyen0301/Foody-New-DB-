@@ -1,0 +1,18 @@
+package com.food.pojo;
+
+import com.food.pojo.Food;
+import com.food.pojo.User;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.7.9.v20210604-rNA", date="2022-08-12T23:33:11")
+@StaticMetamodel(Foodrate.class)
+public class Foodrate_ { 
+
+    public static volatile SingularAttribute<Foodrate, User> idUser;
+    public static volatile SingularAttribute<Foodrate, Integer> rate;
+    public static volatile SingularAttribute<Foodrate, Integer> idFood;
+    public static volatile SingularAttribute<Foodrate, Food> food;
+
+}
